@@ -19,6 +19,18 @@
     <header class="page-header">
       <nav class="container header">
         <a href="/" class="logo"> <span class="logo-web">Web</span> Studio </a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="icon-cross" href="./image/symbol-defs7.svg#cross"></use>
+            <use class="icon-menu" href="./image/symbol-defs7.svg#menu"></use>
+          </svg>
+        </button>
         <ul class="site-nav">
           <li class="site-nav-item"><a href="./index.html" class="link current">Студия</a></li>
           <li class="site-nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -125,7 +137,7 @@
         </div>
       </section>
       <!-- Team -->
-      <section class="section team">
+      <section class="section-team">
         <div class="container team">
           <h2 class="section-title">Наша команда</h2>
           <ul class="box">
@@ -346,7 +358,7 @@
     <footer>
       <div class="container footer">
         <ul class="fooret-box">
-          <li>
+          <li class="fooret-item">
             <a href="/" class="logo-footer">
               <span class="logo-web">Web</span> <span class="logo-studio-white">Studio</span>
             </a>
@@ -356,7 +368,7 @@
               <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </address>
           </li>
-          <li>
+          <li class="fooret-item">
             <h3 class="footer-title">Присоединяйтесь</h3>
             <ul class="social-list-footer">
               <li class="social-item-footer">
@@ -389,7 +401,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="fooret-item">
             <h3 class="footer-title">Подпишитесь на рассылку</h3>
             <div class="box-subscribe">
               <form class="form-subscribe js-speaker-form">

@@ -50,6 +50,11 @@
   margin-bottom: auto;
 }
 
+.section-advantages {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .box-advantages-item {
   width: 450px;
   margin-bottom: 30px;
@@ -195,11 +200,27 @@
   }
 }
 
+.section-customers {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.list-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-icon-item {
+  margin-bottom: 30px;
+}
+
 .list-icon-link {
   display: flex;
+
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
